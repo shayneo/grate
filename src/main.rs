@@ -22,7 +22,7 @@ fn main() {
             
             let migration_files = vec!["up", "down"];
             for suffix in migration_files.iter() {
-                let path_str = format!("{}/{}_{}.{}.sql", mig_path, mig_name, secs, suffix);
+                let path_str = format!("{}/{}_{}.{}.sql", mig_path, secs, mig_name, suffix);
                 let path = Path::new(&path_str);
 
                 let display = path.display();
