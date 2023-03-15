@@ -5,6 +5,8 @@ edition = "2021"
 authors = ["Shayne O'Sullivan <shayneo@pm.me>"]
 license ="MIT
 readme = "README.md"
+homepage = "https://github.com/shayneo/grate"
+repository = "https://github.com/shayneo/grate"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
