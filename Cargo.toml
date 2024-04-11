@@ -1,6 +1,6 @@
 [package]
 name = "grate"
-version = "0.2.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["Shayne O'Sullivan <shayneo@pm.me>"]
 license ="MIT"
@@ -12,3 +12,4 @@ description = "a simple cli for generating migration files prefixed with unix ti
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
+chrono = "0.4.37"
